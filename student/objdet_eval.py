@@ -90,7 +90,8 @@ def measure_detection_performance(detections, labels, labels_valid, min_iou=0.5)
             best_match = max(matches_lab_det,key=itemgetter(1)) # retrieve entry with max iou in case of multiple candidates   
             ious.append(best_match[0])
             center_devs.append(best_match[1:])
-
+    print('ious={}'.format(ious))
+    print('center_devs={}'.format(center_devs))
 
     ####### ID_S4_EX2 START #######     
     #######

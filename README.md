@@ -49,14 +49,59 @@ python3 loop_over_dataset_ID_S2_EX3.py
 
 ## Step 3 - Exercise 1
 
+```
+python3 loop_over_dataset_ID_S3_EX1.py
+```
+
 ## Step 3 - Exercise 2
+
+```
+python3 loop_over_dataset_ID_S3_EX2.py
+```
+
+![IMAGES/step3-image1.png](IMAGES/step3-image1.png)
+
+![IMAGES/step3-image2.png](IMAGES/step3-image2.png)
 
 ## Step 4 - Exercise 1
 
+```
+python3 loop_over_dataset_ID_S4_EX1.py 
+```
+
+```
+ious=[0.6542068636263976, 0.9132875663091978, 0.8925967031816004]
+center_devs=[[0.311355588504739, -0.0031356753934232984, 1.0292643213596193], [-0.07108406474071671, 0.03811673568270635, 0.8291298942401681], [0.07775295163446572, 0.030665009917356656, 0.8929607095304846]]
+
+ious=[0.7096651012386277, 0.8999471797245473, 0.896371116728743]
+center_devs=[[0.2488309520376788, -0.029714277508901432, 0.9899635729132115], [-0.08442348191056226, 0.04014699931940413, 0.8152483974641882], [-0.0872158711317752, -0.02108056463293906, 0.8711946193956237]]
+```
+
 ## Step 4 - Exercise 2
+
+```
+python3 loop_over_dataset_ID_S4_EX2.py 
+```
 
 ## Step 4 - Exercise 3
 
+```
+python3 loop_over_dataset_ID_S4_EX3.py 
+```
+
+![IMAGES/results_darknet.png](IMAGES/results_darknet.png)
+
+```
+python3 loop_over_dataset_ID_S4_EX3_fpn_resnet.py
+```
+
+![IMAGES/results_darknet.png](IMAGES/results_fpn_resnet.png)
+
+```
+python3 loop_over_dataset_ID_S4_EX3_labels.py
+```
+
+![IMAGES/results_darknet.png](IMAGES/results_labels.png)
 
 ## Introduction
 
