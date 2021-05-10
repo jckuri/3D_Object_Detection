@@ -33,7 +33,19 @@ python3 loop_over_dataset_ID_S2_EX1.py
 
 ## Step 2 - Exercise 2
 
+```
+python3 loop_over_dataset_ID_S2_EX2.py 
+```
+
+![IMAGES/intensity_map.png](IMAGES/intensity_map.png)
+
 ## Step 2 - Exercise 3
+
+```
+python3 loop_over_dataset_ID_S2_EX3.py 
+```
+
+![IMAGES/height_map.png](IMAGES/height_map.png)
 
 ## Step 3 - Exercise 1
 
