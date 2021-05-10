@@ -7,9 +7,9 @@
 python3 loop_over_dataset_ID_S1_EX1.py
 ```
 
-!(IMAGES/range_image_1.png)[IMAGES/range_image_1.png]
+![IMAGES/range_image_1.png](IMAGES/range_image_1.png)
 
-!(IMAGES/range_image_2.png)[IMAGES/range_image_2.png]
+![IMAGES/range_image_2.png](IMAGES/range_image_2.png)
 
 ## Step 1 - Exercise 2
 
