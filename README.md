@@ -13,6 +13,12 @@ python3 loop_over_dataset_ID_S1_EX1.py
 
 ## Step 1 - Exercise 2
 
+```
+python3 loop_over_dataset_ID_S1_EX2.py
+```
+
+![IMAGES/point_cloud.png](IMAGES/point_cloud.png)
+
 ## Step 2 - Exercise 1
 
 ## Step 2 - Exercise 2
