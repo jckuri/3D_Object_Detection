@@ -86,7 +86,7 @@ python3 loop_over_dataset_ID_S4_EX2.py
 ## Step 4 - Exercise 3
 
 ```
-python3 loop_over_dataset_ID_S4_EX3.py 
+python3 loop_over_dataset_ID_S4_EX3_darknet.py 
 ```
 
 ![IMAGES/results_darknet.png](IMAGES/results_darknet.png)
