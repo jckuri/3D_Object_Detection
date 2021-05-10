@@ -89,16 +89,33 @@ python3 loop_over_dataset_ID_S4_EX2.py
 python3 loop_over_dataset_ID_S4_EX3_darknet.py 
 ```
 
+```
+student task ID_S4_EX3
+all_positives=306, true_positives=287, false_negatives=19, false_positives=5
+precision = 0.9828767123287672, recall = 0.9379084967320261
+```
+
 ![IMAGES/results_darknet.png](IMAGES/results_darknet.png)
 
 ```
 python3 loop_over_dataset_ID_S4_EX3_fpn_resnet.py
 ```
 
+```
+all_positives=306, true_positives=139, false_negatives=167, false_positives=64
+precision = 0.6847290640394089, recall = 0.4542483660130719
+```
+
 ![IMAGES/results_darknet.png](IMAGES/results_fpn_resnet.png)
 
 ```
 python3 loop_over_dataset_ID_S4_EX3_labels.py
+```
+
+```
+student task ID_S4_EX3
+all_positives=306, true_positives=306, false_negatives=0, false_positives=0
+precision = 1.0, recall = 1.0
 ```
 
 ![IMAGES/results_darknet.png](IMAGES/results_labels.png)
