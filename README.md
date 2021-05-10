@@ -1,5 +1,5 @@
 
-# SDCND : Sensor Fusion and Tracking
+# SDC ND: Sensor Fusion and Tracking
 
 ## Step 1 - Exercise 1
 
