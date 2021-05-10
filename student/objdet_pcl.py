@@ -153,7 +153,7 @@ def bev_from_pcl(lidar_pcl, configs):
     # step 4 : visualize point-cloud using the function show_pcl from a previous task
 
     # Uncomment to show
-    #show_pcl(lidar_pcl_cpy)
+    show_pcl(lidar_pcl_cpy)
 
     #######
     ####### ID_S2_EX1 END #######     

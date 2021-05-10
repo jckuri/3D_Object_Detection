@@ -19,7 +19,17 @@ python3 loop_over_dataset_ID_S1_EX2.py
 
 ![IMAGES/point_cloud.png](IMAGES/point_cloud.png)
 
+### Find 10 examples of vehicles with varying degrees of visibility in the point-cloud
+
+### Try to identify vehicle features that appear stable in most of the inspected examples and describe them
+
 ## Step 2 - Exercise 1
+
+```
+python3 loop_over_dataset_ID_S2_EX1.py
+```
+
+![IMAGES/bev_from_pcl.png](IMAGES/bev_from_pcl.png)
 
 ## Step 2 - Exercise 2
 
