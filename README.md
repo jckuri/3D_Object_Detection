@@ -21,10 +21,29 @@ python3 loop_over_dataset_ID_S1_EX2.py
 
 **Find 10 examples of vehicles with varying degrees of visibility in the point-cloud**
 
+I found 15 vehicles with different degrees of visibility.
+Their visibilities depends on 3 factors: 
+- The yaw angle heading toward the lidar sensor.
+- The distance from the vehicle to the lidar sensor.
+- If the car is behind other objects.
 
+Cars 1, 2, 3, 11, 12, 14, 15 are represented by fewer lidar lines because they are far from the lidar sensor.
+
+Cars 4, 5, 6, 7, 8, 9, 10, 13 are represented by more lidar lines because they are nearer the lidar sensor.
+
+Cars 10, 11, 12 are partially occluded by the cars in front of them.
+That means lasers bounce in the nearer cars and cannot reach the cars behind.
+If you carefully observe, behind every car, there is an empty space where lasers cannot reach.
 
 **Try to identify vehicle features that appear stable in most of the inspected examples and describe them**
 
+The yaw angles of cars 1, 2, 3, 4, 5, 9, 10, 11, 12, 14, 15 point somewhat toward the lidar sensor.
+And thus, the frontal features of the car appear: Windshield, doors, roof, hood, bumper.
+
+The yaw angles of cars 6, 7, 8 show the lateral features of them: Doors, roof, hood, bumper.
+
+Only the car 13 is heading in the opposite direction of the lidar sensor, showing the back features:
+Rear bumper, trunk, roof.
 
 
 ## Step 2 - Exercise 1
