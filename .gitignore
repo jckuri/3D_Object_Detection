@@ -1,0 +1,4 @@
+/results
+/dataset
+/tools/objdet_models/resnet/pretrained/fpn_resnet_18_epoch_300.pth 
+/tools/objdet_models/darknet/pretrained/complex_yolov4_mse_loss.pth
