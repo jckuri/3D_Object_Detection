@@ -71,7 +71,6 @@ def measure_detection_performance(detections, labels, labels_valid, min_iou=0.5)
                 
                 ## step 5 : compute the intersection over union (IOU) between label and detection bounding-box
                 
-                #iou = tools.calculate_iou(label_corners, detection_corners)
                 label_polygon = Polygon(label_corners)
                 detection_polygon = Polygon(detection_corners)
                 iou = label_polygon.intersection(detection_polygon).area / label_polygon.union(detection_polygon).area
@@ -106,7 +105,8 @@ def measure_detection_performance(detections, labels, labels_valid, min_iou=0.5)
     false_negatives = all_positives - true_positives
 
     ## step 3 : compute the number of false positives
-    false_positives = all_positives - len(detections)
+    false_positives = len(detections) - true_positives
+    
     
     #######
     ####### ID_S4_EX2 END #######     
