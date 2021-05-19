@@ -253,10 +253,15 @@ def detect_objects(input_bev_maps, model, configs):
             box_width_2 = float(y_factor * box_width)
             box_length_2 = float(x_factor * box_length)
             yaw = float(yaw)
+            
+            if (x_center >= configs.lim_x[0]) and (x_center <= configs.lim_x[1]) and \
+                (y_center >= configs.lim_y[0]) and (y_center <= configs.lim_y[1]) and \
+                (z >= configs.lim_z[0]) and (z <= configs.lim_z[1]):
 
-            ## step 4 : append the current object to the 'objects' array
+                ## step 4 : append the current object to the 'objects' array
 
-            objects.append([vehicle_class, x_center, y_center, z, box_height, box_width_2, box_length_2, yaw])
+                objects.append([vehicle_class, x_center, y_center, z, 
+                    box_height, box_width_2, box_length_2, yaw])
         
     #######
     ####### ID_S3_EX2 START #######   
